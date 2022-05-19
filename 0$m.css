@@ -1,0 +1,78 @@
+.background {
+    background-color: ghostwhite;
+}
+
+.to-center {
+    text-align: center;
+    font-family: consolas;
+    font-size: 40px;
+    color: black;
+}
+
+.center {
+    margin: center;
+    float: center;
+    text-align: center;
+}
+
+.left{
+    margin-left: -900px;
+}
+
+.ttt {
+    font-family: consolas;
+    font-size: 42px;
+    text-align: center;
+}
+
+.aboutme {
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.disco-text {
+  animation: color-change 3s infinite;
+}
+
+
+@keyframes color-change {
+  0% { color: aqua; }
+  25% { color: skyblue; }
+  50% { color: darkturquoise; }
+  75% { color: aquamarine; }
+  100% { color: aqua; }
+}
+
+# Console terminal animation not my own code !
+
+body {
+  background: #111;
+}
+
+.hidden {
+  opacity:0;
+}
+
+.console-container {
+  font-family:consolas;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+
+.console-underscore {
+  display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
